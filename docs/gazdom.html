@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="header__row-button">
-                            <button class="header__button button">Заказать звонок</button>
+                            <a href="#form" class="header__button button">Заказать звонок</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <div class="nav">
                         <div class="nav__links">
                             <li class="nav__link">
-                                <a href="#" class="nav__link-title">Наши услуги</a>
+                                <a href="index.html#services" class="nav__link-title">Наши услуги</a>
                             </li>
                             <li class="nav__link">
                                 <a href="index.html" class="nav__link-title">Главная</a>
@@ -52,14 +52,14 @@
                                 <a href="news.html" class="nav__link-title">Новости</a>
                             </li>
                             <li class="nav__link">
-                                <a href="#" class="nav__link-title">Контакты</a>
+                                <a href="#contacts" class="nav__link-title">Контакты</a>
                             </li>
                             <li class="nav__link">
                                 <a href="about.html" class="nav__link-title">О нас</a>
                             </li>
                         </div>
-                        <div class="header__row-button header__row-button--nav">
-                            <button class="header__button button">Заказать звонок</button>
+                        <div class="header__row-button header__row-button--nav ">
+                            <a href="#form" class="header__button button nav__link">Заказать звонок</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                                 <span>* Приведи соседа, и каждый получите скидку по 10 тыс.руб.</span>
                             </li>
                         </ul>
-                        <a href="#" class="gazdom-hero__button button">Получить скидку</a>
+                        <a href="#form-gazdom" class="gazdom-hero__button button">Получить скидку</a>
                     </div>
                     <div class="gazdom-hero__content-img gazdom-hero__content-img--home">
                         <picture>
@@ -118,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="gazdom-form paddin-bottom-def">
+    <section class="gazdom-form paddin-bottom-def" id="form-gazdom">
         <div class="container">
             <div class="gazdom-form__inner">
                 <h3 class="gazdom-form__title">У 9 человек из 10 появляются сложности с газификацией своего дома. Но
@@ -218,7 +218,6 @@
                     </div>
                     <div class="gazdom-steps__items-wrapper">
                         <div class="gazurlic-steps__item gazdom-steps__item">
-
                             <img src="./images/svg/sprite.svg#planning" class="svg-home-dims" alt="home">
                             <p class="gazurlic-steps__item-text">Разработаем и согласуем проектную документацию за
                                 минимальные сроки
@@ -238,7 +237,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="gazurlic-steps__button">Узнать, где находится ближайший к Вашему объекту
+                <a href="#form" class="gazurlic-steps__button">Узнать, где находится ближайший к Вашему объекту
                     газопровод</a>
             </div>
         </div>
@@ -263,7 +262,7 @@
                         сотрудниками ГРО (газо-распределительных организаций) мы сделаем процесс газификации<br> Вашего
                         дома удобным и сэкономим до 90 дней Вашего времени.</p>
                     </p>
-                    <button class="gazdom-piar__content-button button">Сэкономить до 90 дней</button>
+                    <a href="#form-gazdom2" class="gazdom-piar__content-button button">Сэкономить до 90 дней</a>
                 </div>
             </div>
         </div>
@@ -279,19 +278,21 @@
                         <h5 class="gazdom-cards__card-title">Программа «Догазификация» </h5>
                         <p class="gazdom-cards__card-text">Позволяет бесплатно провести газопровод до границ Вашего
                             участка</p>
-                        <button class="gazdom-cards__card-button button">Подробная информация о программе</button>
+                        <button class="gazdom-cards__card-button button button-modal__dogaz" data-modal>Подробная информация о
+                            программе</button>
                     </div>
                     <div class="gazdom-cards__content-card">
                         <h5 class="gazdom-cards__card-title">Субсидии на газификацию </h5>
                         <p class="gazdom-cards__card-text">Субсидии до 300 000 руб на работы по газификации в границах
                             Вашего участка</p>
-                        <button class="gazdom-cards__card-button button">Подробная информация о программе</button>
+                        <button class="gazdom-cards__card-button button button-modal__subsidii" data-modal>Подробная информация о
+                            программе</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="gazdom-form2">
+    <section class="gazdom-form2" id="form-gazdom2">
         <div class="container">
             <div class="gazcotedg-form__inner">
                 <h5 class="gazcotedg-form__title gazdom-form2__title">ЗАБРОНИРУЙ БЕСПЛАТНО необходимый ОБЪЕМ ГАЗА прямо
@@ -339,7 +340,7 @@
                     течение месяца, подать его следует как можно скорее. Другие вопросы можно будет решать, пока
                     заявление находится на стадии рассмотрения.
                 </p>
-                <button class="gazdom-ty__button button">Подать заявление на ТУ бесплатно</button>
+                <a href="#form" class="gazdom-ty__button button">Подать заявление на ТУ бесплатно</a>
             </div>
         </div>
     </section>
@@ -399,66 +400,254 @@
             </div>
         </div>
     </section>
-    
-    <section class="form paddin-bottom-def">
-    
+    <section class="form paddin-bottom-def" id="form">
         <div class="container">
-    
             <div class="form__inner">
-    
                 <div class="form__content">
-    
                     <div class="form__content-text">
-    
                         <h5 class="form__content-title title40">получить бесплатную консультацию</h5>
-    
                         <p class="form__content-subtitle">Специалисты нашей компании ответят на все ваши вопросы. Для
-    
                             этого заполните форму:</p>
-    
                     </div>
-    
                     <form class="form__content-form">
-    
                         <input type="text" type="text" class="form__input" placeholder="Ваше имя" required>
-    
                         <input type="tel" type="tel" class="form__input" placeholder="Ваш телефон" required>
-    
                         <input type=" text" type="text" class="form__input" placeholder="Ваш вопрос" required>
-    
                         <button type=" submit" class="form__button button">Отправить</button>
-    
                         <label class="form__personal">
-    
                             <span>Нажимая на кнопку, вы даете <a href="#" target="_blank">согласие на обработку своих
-    
                                 персональных данных</a></span>
-    
                         </label>
-    
                     </form>
-    
                 </div>
-    
                 <div class="form__img">
-    
                     <picture>
-    
                         <source type="image/avif" srcset="./images/finals/home/form-img.avif" />
-    
                         <source type="image/webp" srcset="./images/finals/home/form-img.webp" />
-    
                         <img src="./images/finals/home/form-img.png" alt="газификация для юридических лиц">
-    
                     </picture>
-    
                 </div>
-    
             </div>
-    
         </div>
-    
     </section>
+    <div class="modal-subsidii">
+    
+        <div class="container container-modal">
+            <div class="modal-subsidii__closebtn-wrapper"><div class="modal-subsidii__closebtn" data-close></div></div>
+            <div class="modal-subsidii__info  modal-padding">
+                <h5 class="modal-subsidii__info-title">Подробная информация <br><span>о Субсидиях на газификацию</span>
+                </h5>
+                <p class="modal-subsidii__info-subtitle">Условия участия для получения субсидии </p>
+                <ul class="modal-subsidii__info-items">
+                    <li class="modal-subsidii__info-item">
+                        <p>дом и участок находятся в Вашей собственности, либо в собственности Вашего родственника
+                        </p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>дом с участком находятся в Ленинградской Области</p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>наличие Вашей пописки или прописки Вашего родственника в данном доме более 1 года</p>
+                    </li>
+                </ul>
+                <p class="modal-subsidii__info-subtitle">Условия получения субсидии на газификацию </p>
+                <ul class="modal-subsidii__info-items">
+                    <li class="modal-subsidii__info-item">
+                        <p>дом и участок находятся в Вашей собственности, либо в собственности Вашего родственника</p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>дом с участком находятся в Ленинградской Области</p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>наличие Вашей пописки или прописки Вашего родственника в данном доме более 1 года</p>
+                    </li>
+                </ul>
+                <p class="modal-subsidii__info-subtitle">Размеры субсидий </p>
+                <div class="modal-subsidii__info-cards">
+                    <div class="modal-subsidii__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>300</span><br> тыс.руб.</p>
+                        <p class="modal-subsidii__info-card-text">для участников ВОВ <br>и приравненных к ним
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>200</span><br> тыс.руб.</p>
+                        <p class="modal-subsidii__info-card-text">для льготных <br>категорий граждан*
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>180</span><br> тыс.руб.</p>
+                        <p class="modal-subsidii__info-card-text">остальным<br> категориям граждан
+                        </p>
+                    </div>
+                </div>
+                <p class="modal-subsidii__info-note">Примечание* </p>
+                <p class="modal-subsidii__info-note-text">семьи с тремя и более детьми, так же с детьми-инвалидами<br>
+                    пенсионеры<br>
+                    инвалиды<br>
+                    почетные граждане Ленинградской Области<br>
+                    Герои СССР, Герои России, полные кавалеры Ордена Славы<br>
+                    ветераны боевых действий<br>
+                    ветераны труда<br>
+                    граждане, подвергшиеся воздействию радиации вследствие катастрофы на Чернобыльской АЭС</p>
+            </div>
+            <div class="modal-subsidii__form modal-padding">
+                <div class="modal-subsidii__form-content">
+                    <h4 class="modal-subsidii__form-title">Получите <span>бесплатную</span><br> консультацию специалиста и
+                        узнайте</h4>
+                    <ul class="modal-subsidii__form-list">
+                        <li class="modal-subsidii__form-item">
+                            <p>можно ли получить субсидию
+                            </p>
+                        </li>
+                        <li class="modal-subsidii__form-item">
+                            <p>стоимость работ по газификации <br>в границах участка</p>
+                        </li>
+                        <li class="modal-subsidii__form-item">
+                            <p>сколько времени займет весь процесс газификации </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="montage-form__form modal-subsidii__form-form">
+                    <div class="montage-form__content">
+                        <div class="montage-form__content-text">
+                            <h5 class="montage-form__content-title">Получить бесплатную консультацию
+                            </h5>
+                        </div>
+                        <form class="montage-form__content-form">
+                            <input type="text" class="form__input montage-form__input" placeholder="Ваше имя" required>
+                            <input type="tel" class="form__input montage-form__input" placeholder="Ваш телефон" required>
+                            <button type=" submit" class="form__button button">Отправить</button>
+                            <label class="montage-form__personal">
+                                <span>Нажимая на кнопку, вы даете <a href="#" target="_blank">согласие на обработку
+                                        своих
+                                        персональных данных</a></span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-subsidii modal-gaz">
+        <div class="container container-modal">
+            <div class="modal-subsidii__closebtn-wrapper">
+                <div class="modal-subsidii__closebtn" data-close></div>
+            </div>
+            <div class="modal-subsidii__info  modal-padding">
+                <h5 class="modal-subsidii__info-title">Подробная информация о программе <br><span>«Догазификация»</span>
+                </h5>
+                <p class="modal-subsidii__info-subtitle modal-gaz__info-title">Условия участия в программе « Догазификация»:
+                </p>
+                <ul class="modal-subsidii__info-items">
+                    <li class="modal-subsidii__info-item">
+                        <p>дом и участок находятся в Вашей собственности
+                        </p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>в Ваш населенный пункт уже проведен газопровод</p>
+                    </li>
+                    <li class="modal-subsidii__info-item">
+                        <p>в ГРС (газо-распределительной станции), которая поставляет газ <br>в Ваш населенный пункт имеется
+                            свободная мощность
+                        </p>
+                    </li>
+                </ul>
+                <p class="modal-subsidii__info-subtitle modal-gaz__info-title">Сроки подключения по программе
+                    «Догазификация»: </p>
+                <div class="modal-subsidii__info-cards modal-gaz__info-cards">
+                    <div class="modal-subsidii__info-card modal-gaz__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>30</span><br> дней</p>
+                        <p class="modal-subsidii__info-card-text modal-gaz__info-card-text">когда газоповод проходит
+                            <span>мимо вашего участка</span>
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card modal-gaz__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>100</span><br> дней</p>
+                        <p class="modal-subsidii__info-card-text modal-gaz__info-card-text">когда необходимо строительство
+                            газопровода протяженностью
+                            <span>до 30 метров</span>
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card modal-gaz__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>135</span><br> дней</p>
+                        <p class="modal-subsidii__info-card-text modal-gaz__info-card-text">когда необходимо строительство
+                            газопровода протяженность
+                            <span>от 30 до 200 метров</span>
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card modal-gaz__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>200</span><br> дней</p>
+                        <p class="modal-subsidii__info-card-text modal-gaz__info-card-text">когда необходимо строительство
+                            газопровода протяженностью
+                            <span>от 200 до 500 метров</span>
+                        </p>
+                    </div>
+                    <div class="modal-subsidii__info-card modal-gaz__info-card">
+                        <p class="modal-subsidii__info-card-price"><span>360</span><br> дней</p>
+                        <p class="modal-subsidii__info-card-text modal-gaz__info-card-text">когда необходимо строительство
+                            газопровода протяженностью
+                            <span>более 500 метров</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="modal-subsidii__info-note">Примечание* </p>
+                <p class="modal-subsidii__info-note-text modal-gaz__info-note-text">сроки подключения могут быть увеличены,
+                    если потребуется
+                    строительство пунктов редуцирования газа или бестраншейного способа прокладки газопровода
+                </p>
+                <p class="modal-subsidii__info-note-text modal-gaz__info-note-text">СНТ и ДнП попадают под программу, если
+                    находятся в границах
+                    газифицируемых населенных пунктов
+                </p>
+                <p class="modal-subsidii__info-note-text modal-gaz__info-note-text">если у ГРС нет свободной мощности,
+                    участие в программе
+                    догазификации все равно возможно, но сроки могут быть увеличены
+                </p>
+            </div>
+            <div class="modal-subsidii__form modal-padding modal-gaz__form">
+                    <div class="modal-subsidii__form-content">
+                        <h4 class="modal-subsidii__form-title">Получите <span>бесплатную</span> консультацию специалиста и
+                            узнайте</h4>
+                        <ul class="modal-subsidii__form-list">
+                            <li class="modal-subsidii__form-item">
+                                <p>есть ли в ближайшей ГРС свободная мощность
+                                </p>
+                            </li>
+                            <li class="modal-subsidii__form-item">
+                                <p>возможность участия в программе «Догазификация»</p>
+                            </li>
+                            <li class="modal-subsidii__form-item">
+                                <p>стоимость работ по газификации в границах участка
+                                </p>
+                            </li>
+                            <li class="modal-subsidii__form-item">
+                                <p>сколько времени займет весь процесс газификации
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="montage-form__form modal-subsidii__form-form">
+                        <div class="montage-form__content">
+                            <div class="montage-form__content-text">
+                                <h5 class="montage-form__content-title modal-gaz__form-form-title">Получить бесплатную консультацию
+                                </h5>
+                            </div>
+                            <form class="montage-form__content-form">
+                                <input type="text" class="form__input montage-form__input" placeholder="Ваше имя" required>
+                                <input type="tel" class="form__input montage-form__input" placeholder="Ваш телефон"
+                                    required>
+                                <button type=" submit" class="form__button button">Отправить</button>
+                                <label class="montage-form__personal">
+                                    <span>Нажимая на кнопку, вы даете <a href="#" target="_blank">согласие на обработку
+                                            своих
+                                            персональных данных</a></span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 
@@ -467,7 +656,7 @@
 
 
 
-<footer class="footer">
+<footer class="footer" id="contacts">
 
 
 
@@ -531,7 +720,7 @@
 
 
 
-                    <button class="button footer__button">Заказать звонок</button>
+                    <a href="#form" class="button footer__button">Заказать звонок</a>
 
 
 
@@ -627,7 +816,7 @@
 
 
 
-                                <a href="#">Главная</a>
+                                <a href="index.html">Главная</a>
 
 
 
@@ -651,7 +840,7 @@
 
 
 
-                                <a href="#">Новости</a>
+                                <a href="news.html">Новости</a>
 
 
 
@@ -675,7 +864,7 @@
 
 
 
-                                <a href="#">Контакты</a>
+                                <a href="#contacts">Контакты</a>
 
 
 
@@ -699,7 +888,7 @@
 
 
 
-                                <a href="#">О компании</a>
+                                <a href="about.html">О компании</a>
 
 
 
